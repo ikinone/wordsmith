@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris -- Structure/init/assets
+    Henry -- Edit/review/ux
+    Rosario -- Clever tech stuff
+
+# THANKS
+
+    Boostrap team
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
