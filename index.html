@@ -2,203 +2,442 @@
 <html lang="en">
 
 <head>
-    <!-- add new ga here -->
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106947591-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106947591-1');
+    </script>
+
     <!-- default crap -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        
-        <title>The-Wordsmith</title>
-        <meta name="description" content="">
-        <meta name="author" content="Henry Ashley-Cooper">
-        <meta name="keywords" content="wordsmith editor proofreading caroline petherick">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>The-Wordsmith</title>
+    <meta name="description" content="">
+    <meta name="author" content="Henry Ashley-Cooper">
+    <meta name="keywords" content="wordsmith editor proofreading caroline petherick">
 
     <!-- urls -->
-        <link rel="canonical" href="https://the-wordsmith.co.uk">
-        <link rel="alternate" href="https://the-wordsmith.co.uk" hreflang="x-default">
+    <link rel="canonical" href="https://the-wordsmith.co.uk">
+    <link rel="alternate" href="https://the-wordsmith.co.uk" hreflang="x-default">
 
     <!-- og protocol -->
-        <meta property="og:image" content="https://www.crowdholding.com/static/images/crowdholding-icon.png">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="The-Wordsmith">
-        <meta property="og:description" content="A decentralized open innovation platform that connects entrepreneurs and supporters - co-create and earn YUPIES!!!">
-        <meta property="og:url" content="https://the-wordsmith.co.uk">
-        <meta property="og:site_name" content="The-Wordsmith">
+    <meta property="og:image" content="https://www.crowdholding.com/static/images/crowdholding-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The-Wordsmith">
+    <meta property="og:description" content="A decentralized open innovation platform that connects entrepreneurs and supporters - co-create and earn YUPIES!!!">
+    <meta property="og:url" content="https://the-wordsmith.co.uk">
+    <meta property="og:site_name" content="The-Wordsmith">
 
     <!-- icons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#36a3e2">
-        <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#36a3e2">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- import stylesheets -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
     <!-- local stylesheet -->
-        <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 
 <body>
     <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#" onclick="ga('send', 'event', 'Navbar', 'Brand', 'Brand');">The Wordsmith</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-white">
+        <a class="navbar-brand fancy-font" href="#" onclick="ga('send', 'event', 'Navbar', 'Brand', 'Brand');">The Wordsmith</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav text-right ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Home');">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Home');">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#textmanagement" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Text management');">Text management</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#proofreading" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Proofreading');">Proofreading</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#editing" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Editing');">Editing</a>
                 </li>
-              </ul>
-            </div>
-          </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Testimonials');">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'About');">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" onclick="ga('send', 'event', 'Navbar', 'Pragenav', 'Contact');">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- home -->
-        <div id="home" class="bg-white hero">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="row">
-                            <div class="col text-center">
-                                <h1 class="fancy-font"><i>Finely crafted words</i></h1>
+    <div id="home" class="bg-white hero">
+        <div class="container">
+            <div class="row">
+                <div class="col pt-5 text-center">
+                    <hr class="mx-5">
+                    <h2 class="fancy-font">Finely crafted words</h2>
+                    <img class="hero-image mx-auto d-block" src="img/tern.jpg">
+                    <hr class="mx-5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="intro" class="bg-brand-white shadow-down pt-5 pb-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="text-center"><i>Looking for a way to polish up your text?</i></h4>
+                    <p class="lead text-center">I'm Caroline Petherick - The Wordsmith. A text management professional with decades of experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="intro" class="pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="">Written text ... just a collection of words. Yet, like simple bricks, words can create artefacts of great power, beauty and influence. For instance:</p>
+                    <hr>
+                    <blockquote class="blockquote py-5">
+                        <p class="mb-0">May I deal with honour. May I act with courage. May I achieve humility.</p>
+                        <footer class="blockquote-footer">Dick Francis<br><cite title="Source Title">journalist / champion jockey / thriller writer</cite></footer>
+                    </blockquote>
+                    <hr>
+                    <blockquote class="blockquote text-right py-5">
+                        <p class="mb-0">Sticks and stones may break our bones, but words will break our hearts.</p>
+                        <footer class="blockquote-footer">Robert Fulghum<br><cite title="Source Title">author / philosopher / grandparent</cite></footer>
+                    </blockquote>
+                    <hr>
+                    <p>Moving and memorable? Whatever you write - whether it's on computer programming, eternal life or anything in between - can be just as inspiring and motivating. But to get the response you expect from your readers, you need someone to check it who doesn't know yet what's in your head.</p>
+                    <p>This is where I come in; I'm your guinea-pig reader. I will help create a clearer communication channel between you and your audience. I'm highly experienced - I've worked as a wordsmith since the early nineties - so you get a swift, efficient and cost-effective service.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <!-- <p>So if you need your:</p>
+                    <ul>
+                        <li>book (printed or ebook) to be edited <a class="btn btn-brand" href="#">click here</a></li>
+                        <li>thesis or dissertation to be proofread <a class="btn btn-brand" href="#">click here</a></li>
+                        <li>product or service to be better respected <a class="btn btn-brand" href="#">click here</a></li>
+                        <li>company image to be more impressive <a class="btn btn-brand" href="#">click here</a></li>
+                    </ul> -->
+                    <h3>Example services:</h3>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card my-2">
+                                <div class="card-body">
+                                    <h4 class="card-title">Get your book edited</h4>
+                                    <p class="card-text">Whether it's printed or an ebook, a novel or a textbook, I can handle it from start to finish.</p>
+                                    <a href="#" class="btn btn-primary">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card my-2">
+                                <div class="card-body">
+                                    <h4 class="card-title">Get your thesis or dissertation proofread</h4>
+                                    <p class="card-text">I'm experienced at ensuring academic texts are just perfect, and ready to impress.</p>
+                                    <a href="#" class="btn btn-primary">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card my-2">
+                                <div class="card-body">
+                                    <h4 class="card-title">Maximise respect for your product or service</h4>
+                                    <p class="card-text">Having perfect English is one of the best ways to ensure respect for your business.</p>
+                                    <a href="#" class="btn btn-primary">More info</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card my-2">
+                                <div class="card-body">
+                                    <h4 class="card-title">Enhance your company image</h4>
+                                    <p class="card-text">Eloquent language takes your company image to the next level, making you stand out from competitors.</p>
+                                    <a href="#" class="btn btn-primary">More info</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <img class="hero-image" src="img/tern.jpg">
-                    </div>
                 </div>
             </div>
         </div>
-
-    <!-- copywriting -->
-        <div id="copy" class="bg-white section">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="jumbotron">
-                            <h1 class="display-3">Copywriting</h1>
-                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            <hr class="my-4">
-                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                            <p class="lead">
-                                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
     <!-- text management -->
+    <div id="textmanagement" class="bg-white section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fancy-font">Text Management</h2>
+                    <p>Do you want to produce effective <a class="" href="#">conference transcriptions</a>, information booklets and leaflets, instruction manuals, fact sheets, newsletters, business plans?</p>
+                    <p>For design and accounting work it's good business sense to employ specialists. But when it comes to getting things down in writing, you've got a computer - so, why pay someone?</p>
+                    <p>A computer can only do so much to help. It can't tell you:<br></p>
+                    <ul>
+                        <li>that the content needs rearranging to end up in logical order 
+                        </li><li>whether your vocabulary and writing style is right for your readers 
+                        </li><li>about any gender, class or cultural bias in your text 
+                        </li><li>whether the typeface and layout of the text make it easy or hard to read 
+                        </li><li>that some information crucial to understanding has been left out, or 
+                        </li><li>that you've typed 'now' instead of 'not' - such a tiny slip ... such potentially catastrophic consequences!</li>
+                    </ul>
+                    <p>If you've already drafted a text, I can approach it from the reader's perspective - very different from the way that you, the writer, view it. My job is to make your publication communicate your message clearly, checking that:</p>
+                    <ul>
+                        <li>it's in the kind of English that's right for your readers</li>
+                        <li>information is included that's neededfor full understanding</li>
+                        <li>the text follows a logical order</li>
+                        <li>contents and referencing are used if required</li>
+                        <li>the text has good layout and a pleasing appearance ...</li>
+                    </ul>
+                    <p>and there are around another 20 editing/proofreading tasks that will maximise the effectiveness of your publication - ask me for the list.</p>
+                    <p>Good writing enhances your image, so readers will be impressed; your publication will become a springboard to help create more and better business for you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- proofreading -->
+    <div id="proofreading" class="bg-white section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fancy-font">Proofreading</h2>
+                    <p class="lead">Are you drafting a business text, and want it checked over?</p>
+                    <p>I'm a very experienced editor / proofreader, and have spent a sizeable chunk of my adult life in the commercial world. So I can achieve anything from a quick polish to a thorough makeover, depending on your needs. Click on Text Management in the menu at left. </p>
+                    <p></p>
+                    <p><font size="3">Are you writing a book? </font>
+                    If so, please click on Editing in the menu at left.</p>
+                    <p></p>
+                    <p><font size="3"><br></font></p><p><font size="3">Are you writing a thesis, dissertation or essay?</font></p>
+                    <p>Academic writing must be your own work. But what if your first language is not English? Or if you have serious difficulty getting things down in writing? </p>
+                    <p>Most universities and colleges allow you to have your text checked by an English proofreader. This helps ensure your meaning is clear and that the text is written in academic British English.</p>
+                    <p>Cost? <b>From £15 to £25 per 1000 words</b>. (For a more exact price, see 'What's the next step?' below.)</p>
+                    <p>Time? I can normally proofread about <b>15,000 words</b> in <b>2 working days</b>, and about<b> 40,000 words</b> in <b>a working week</b> and so on.  But you'll need to check that I have space in my schedule. The more <b>advance notice</b> you give me, the more likely I can work for you when you need me.</p>
+                    <p>Please also <b>give yourself a few days after I've returned the completed text to you</b>. You will need some time to check the changes I've made, before you submit your work for assessment and marking.<br></p>
+                    <p><b>What's the next step? </b></p>
+                    <p>Please email me, to:</p>
+                    <p>1) tell me the title, subject and word limit of your text, </p>
+                    <p>2) tell me your submission deadline, and </p>
+                    <p>3) send me a 500-word sample of the text. </p>I will tell you whether I am competent to work on the subject matter and whether I can fit the work into my schedule. If both those conditions are met, I will work on your sample for free, and I will normally return it to you within 24 hours, with an exact price per 1000 words.
+                    <p></p>
+                    <p>So before you go any further:</p>a) you will know that we can meet your deadline
+                    <p></p>b) you can see what kind of work I would do for you, and
+                    <p></p>c) you will know exactly how much the job will cost you.
+                    <p></p>
+                    <p>Okay? </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- editing -->
+    <div id="editing" class="bg-white section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fancy-font">Editing</h2>
+                    <p>If you're a <b>non-fiction book publisher</b>, you might like to <a class="" href="#contact">contact</a> me about my service; I have worked for the last few years on a series of books ranging from maritime history to diplomatic protocol to natural history, produced by Whittles Publishing, a prestigious private house. Dr Keith Whittles says, 'We have been working with Caroline for several years and across a broad range of projects and subjects. It is a pleasure to work with her - she is efficient, accurate, knowledgeable, diplomatic and very understanding.' (full text on the Testimonials page) </p>
+                    <p> Also, I worked on Lloyd's Register's magisterial history and maritime technology books:  'Caroline was a joy to work with on our projects. She immediately answered our cry for help and couldn’t have been more helpful throughout our time of working with her. We found Caroline a fast, accurate and efficient editor.' (full text on the Testimonials page).
+                    </p>
+                    
+                    <p>If you produce <b>TEFL teacher-trainer books</b>, you will find that my long experience in this field will help produce texts that are relevant and easy to understand.</p><p>I have also worked on educational texts - <b>course books and teacher books</b> - at primary and secondary levels, and am fully aware of the need to achieve coherence, cohesion - and correctness! -throughout.<br></p>
+                    <p>Or perhaps you're a <b>creative writer</b> who wants to ensure your work is as good as it can be before it goes to an agent, a publisher or the public.  The many <b>self-publishing</b> writers I have worked with have - in some cases rather to their surprise - greatly enjoyed the process of checking their work before publishing. One of my recent authors said to her publisher: 'Caroline and I have had SUCH fun getting the m/s sorted!  I must say, she has been absolutely wonderful to work with.' </p>
+                    <p>I have been working as an <b>editor since 1993</b>. My services range from copy-editing and rewriting to  structural editing and developmental editing (coordinating an entire project from first drafts, then 
+                    incorporating input from authors, consultants and editors, to produce a designer-ready text).</p>
+                    
+                    <p>I am an <b>Advanced Professional Member</b> of the Society for Editors and Proofreaders - the highest possible grade - and I continue to update my training to keep abreast the fast-moving world of IT and the subtle changes in language that reflect our developing culture. See my directory entry at http://www.sfep.org.uk/directory/caroline-petherick-wordsmith.</p>
+                    <p>I have an Open University <b>degree in linguistics, Latin + Ancient Greek, and astronomy + cosmology</b>. My activities include crewing a Tall Ship, piloting my own microlight and converting a barn on our seaside acreage into an offgrid holiday cottage, so visitors can find out what fun - and how easy! - it can be to live sustainably (see www.windsworth.org.uk). So my knowledge base is eclectic, helping ensure that any text I work on for you will be well received by your readers.</p>
+                    <p><a href="#contact">Contact me</a> now to find out how my editing service can help your text communicate your message clearly and effectively to your readers. </p>
+                    Proofreading
+                    <font size="3">Are you drafting a business text, and want it checked over?</font>
+                    <p>I'm a very experienced editor / proofreader, and have spent a sizeable chunk of my adult life in the commercial world. So I can achieve anything from a quick polish to a thorough makeover, depending on your needs. Click on Text Management in the menu at left. </p>
+                    <p></p> 
+                    <p><font size="3">Are you writing a book? </font>
+                    If so, please click on Editing in the menu at left.</p>
+                    <p></p>
+                    <p><font size="3"><br></font></p><p><font size="3">Are you writing a thesis, dissertation or essay?</font></p>
+                    <p>Academic writing must be your own work. But what if your first language is not English? Or if you have serious difficulty getting things down in writing? </p>
+                    <p>Most universities and colleges allow you to have your text checked by an English proofreader. This helps ensure your meaning is clear and that the text is written in academic British English.</p>
+                    <p>Cost? <b>From £15 to £25 per 1000 words</b>. (For a more exact price, see 'What's the next step?' below.)</p>
+                    <p>Time? I can normally proofread about <b>15,000 words</b> in <b>2 working days</b>, and about<b> 40,000 words</b> in <b>a working week</b> and so on.  But you'll need to check that I have space in my schedule. The more <b>advance notice</b> you give me, the more likely I can work for you when you need me.</p>
+                    <p>Please also <b>give yourself a few days after I've returned the completed text to you</b>. You will need some time to check the changes I've made, before you submit your work for assessment and marking.<br></p>
+                    <p><b>What's the next step? </b></p>
+                    <p>Please email me, to:</p>
+                    <p>1) tell me the title, subject and word limit of your text, </p>
+                    <p>2) tell me your submission deadline, and </p>
+                    <p>3) send me a 500-word sample of the text. </p>I will tell you whether I am competent to work on the subject matter and whether I can fit the work into my schedule. If both those conditions are met, I will work on your sample for free, and I will normally return it to you within 24 hours, with an exact price per 1000 words.
+                    <p></p>
+                    <p>So before you go any further:</p>a) you will know that we can meet your deadline
+                    <p></p>b) you can see what kind of work I would do for you, and 
+                    <p></p>c) you will know exactly how much the job will cost you.
+                    <p></p>
+                    <p>Okay? </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonials -->
+    <div id="testimonials" class="bg-white section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                        <h2 class="fancy-font">Testimonials</h2>
+                        <p><strong>Current clients include:</strong></p>
+                        <p>Whittles Publishing (maritime), HarperCollins (secondary school spelling and maths books), AD Skin Synergy, and Bott Automotive Vehicle Solutions.<br></p><p><br></p><p><b>Past clients include:</b></p><p>Lloyd's Register, Sheffield Hallam University (secondary physics), Palgrave Macmillan (finance and economics), Lovely Little Books, Helbling Languages, Micus (Duesseldorf), IFS, SECTA, BCCCA, ABTT,  a bunch of academics on topics such as maritime history and rainforest rubber,  a well-known company historian, and writers of semi-fictional books on, for example, Palestine, the Irish troubles, merchant shipping in the Far East. <p></p>
+                        <p align="center">~</p>
+                        <p></p>
+                        <p><strong>Testimonials</strong></p>
+                        <p>Caroline was a joy to work with on our projects. She immediately answered our cry for help and couldn’t have been more helpful throughout our time of working with her. We found Caroline a fast, accurate and efficient editor with a keen eye for attention to detail who could work to extremely tight deadlines, always delivering when she said she would. Caroline has meticulous editing and proofreading skills and is willing to learn and research the subject matter, checking facts and questioning material that needs clarity and providing suggestions based upon her expertise. All of her suggestions were well thought out and pertinent.  We would have no hesitation in using Caroline for our future projects.<br>
+                        <i>Barbara Jones Curator of Maritime History and Education, Lloyd’s Register.</i></p>
+                        <p>We have been working with Caroline for several years and across a broad range of projects and subjects. It is a pleasure to work with her - she is efficient, accurate, knowledgeable, diplomatic and very understanding. She handles authors beautifully, with their own expectations and foibles, and we have received compliments from several who have praised her work, her understanding and the improvements she has brought to their manuscript. I have worked with editors for 40 years and I can say wholeheartedly and with objectivity that Caroline is one of the very best. I am constantly amazed by her knowledge and skills and appreciate her sense of humour - it all helps the editing flow more smoothly! <br><i>Dr Keith Whittles, Whittles Publishing</i></p>
+                        <p>Caroline, I totally trust your excellent work! Cheers, Herbert. <br><i>Dr Herbert Puchta, Professor of English at the Teacher Training University in Austria </i></p>
+                        <p>Ah..... proper sentences that make sense! Exactly what I want. You've done a wonderful job on this. <br><i>Andrew Pilkington</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about me -->
+    <div id="about" class="bg-white section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="fancy-font">About Me</h2>
+                    Since 1993 I've created and contributed to a wide variety of texts, from leaflets and newsletters to weighty multi-author tomes.<br> 
+                    <br>My <b>qualifications </b>relevant to this profession include: 
+                    <ul>
+                    <li>Advanced Professional Membership of the Society for Editors and Proofreaders; the highest grade currently achievable, hence a testimony of high quality (and ongoing) training, valuable experience and proven reliability 
+                    </li><li>Trinity Cert. TESOL, teacher of English as a Foreign Language 
+                    </li><li>Dip ELS (Open) - Diploma of English Language Studies 
+                    </li><li>Open University degree in linguistics, Ancient Greek & Latin, and astronomy/cosmology.<br></li></ul><table style="padding: 2px; width: 100%; border: 1px none #AAAAAA; border-collapse: separate;" prevstyle="padding: 2px; width: 100%; border: 1px none #AAAAAA; border-collapse: separate;"><tbody><tr><td style="border: 1px none #AAAAAA;" prevstyle="border: 1px none #AAAAAA;"> My <b>business background</b> covers the UK and Hong Kong, including PR 
+                    work for J Walter Thompson, and 10 years running a special interest 
+                    travel company (classical music festivals, natural history, fine arts 
+                    and architecture, and fine food and wine).<br><br>And just so's there's no risk of you thinking I'm all work and no play, <b>I'm also involved in</b> ...</td><td style="border: 1px none #AAAAAA;" prevstyle="border: 1px none #AAAAAA;"><img alt="" src="/data/uploads/101.jpg" vspace="" hspace="" border="0"> </td></tr></tbody></table><ul><li>Car <b>driving </b>- I became a member of the IAM and I sometimes have fun in a skid pan, too. Drives etched on my memory include (1) nipping over the pass from La Paz down for lunch in the steamy heat of the rainforest in the mid-70s (along what I later learnt was the Camino de La Muerte) in a beat-up rented Beetle; and (2) penetrating the fastnesses<span class="st"> of the Zhongyang Range in ... a beat-up rented Beetle. What next? The Eurasian Pole of Inaccessibility via the Karakoram Highway, and back again via Mt Kailas.</span></li><li>
+                    <div align="justify">Scuba <b>diving </b>- I'm a PADI Open Water Diver and have dived the Channel, the Med and the Red Sea.</div></li><li><b>Winter sports</b> - I've spent winters abroad skiing in Switzerland 
+                    and France, I've made a risible attempt at snowboarding, and I spent 
+                    time in the Canadian Rockies on a snowmobile and helping train a dogsled
+                        team.</li><li>
+                    <div align="justify"><b>Aviation </b>- I hold a PPL, with IMC and Night Ratings. I have also flown a glider, a hang-glider and a helicopter, and have gone hot-air ballooning. I owned a Thruster microlight, but sold it when the adrenalin levels caused by its overstressed two-stroke engine went over the top. Next stop - when the price drops - a Calidus autogyro, to fly from home. Meanwhile it's a session or two at the Virtual Jet Centre in Devon. (Highly recommended as a present for any would-be pilot in your family.)<br></div>
+                    </li><li>
+                    <div align="justify"><b>Martial arts</b> - judo many years ago, then ki-aikido, and now the equally powerful, but less physically demanding, t'ai chi.<br></div>
+                    </li><li>
+                    <div align="justify"><b>Sailing</b>, including 
+                    <ul>
+                    <li>restoring and sailing a two-mast, gaff-rig traditional wooden boat 
+                    </li><li>windsurfing - wobble'n'splash
+                    </li><li>yachting – Solent Points, Cowes Week and Kiel week racing and cruising, DoT Yachtmaster, Short-range Radio Operator
+                    </li><li>Tall Ship - crewing the STA's <span style="FONT-STYLE: italic"> Prince William</span> in the Azores.<br></li></ul></div>
+                    </li><li>
+                    <div align="justify"><b>Opera </b>- for several years I went to the gods in Covent Garden once or twice a week. I've also been to many festival performances at Bayreuth, Salzburg,  Glyndebourne etc.<br>
+                    <div></div>
+                    </div></li><li>
+                    <div align="justify"><b>More arts </b> - I'm the Discovery Days organiser for Liskeard Arts, my local NADFAS group; and I'm the projectionist for Cinema by the Sea.</div>
+                    </li><li>
+                    <div align="justify"><b>Family </b>- I'm mum to four young adults who are now scattered across the globe, startling the locals no doubt. Feeling guilty about thus increasing the population, I've told them that if they <span style="FONT-STYLE: italic">really </span>want to have children, then they'll need to be prepared for a thoroughly subversive granny person.<br></div>
+                    </li><li>
+                    <div align="justify"><b>Weird </b>and wonderful - I enquire into healing and dowsing. <br></div>
+                    </li><li>
+                    <div align="justify"><b>Travel </b>- I've travelled widely overland and by sea in Europe, Asia (inc. Trans-Siberian), Africa, and North and South America.<br>
+                    <ul>
+                    <li>For nearly 10 years I ran an upmarket travel company (art & architecture, wildlife, gastronomy, classical music festivals), so I travelled extensively on business.<br>
+                    </li><li>In addition, I've stayed long-term in these countries:<br> Iceland, Ireland, Scotland, France, Germany, Gozo, Switzerland, Italy, Spain, Portugal (inc Madeira and Azores);  Pakistan, India, Nepal, USSR (inc Trans-Siberian), Hong Kong, Japan, Peru. <br>
+                    </li><li><div align="justify">And I've travelled overland in: Finland, Sweden, Denmark, the Netherlands, Belgium, Andorra, Yugoslavia, Greece; Turkey, Egypt, Iran, Afghanistan, Thailand, Malaysia, Singapore, Indonesia, Macao, China, Taiwan; Morocco, Egypt, Zimbabwe; Canada (inc Trans-Canadian), Colombia, Bolivia, and Venezuela.</div></li></ul></div>
+                    </li><li><div align="justify">
+                    <div><b>Languages </b>- I had excellent French, Italian and German, and I still have a conversational knowledge of those languages, plus 'get-by' knowledge of the languages of many of the countries I've visited. </div></div></li><li><div align="justify">Back at home? I'm lucky enough to live on a half-mile tranche of Cornish coast - and I've earned <b>DEFRA's HLS award</b>. This helps me maximise biodiversity, thus leave this small but perfectly formed part of the world in better heart than I found it.<br></div></li></ul>There are reasons why I've listed all these things - first of all I'm quite proud of them, and second if your text has anything to do with any of them, you can expect an extra good result.
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- footer -->
-    <footer id="contact" class="inverse spacetop">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h3>Contact</h3>
-              <div class="list-group">
-                <a class="list-group-item" target="_blank" href="tel:+441503262671"><i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>&nbsp; +44 (0)1503 262671</a>
-                <a class="list-group-item" target="_blank" href="mailto:stay@windsworth.org.uk"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>&nbsp; stay@windsworth.org.uk</a>
-                <a class="list-group-item" target="_blank" href="https://www.google.co.uk/maps/place/The+Old+Coach+House+at+The+Labyrinth/@50.3629311,-4.4749095,12z/data=!4m5!3m4!1s0x0:0xf5a9204e2f08709c!8m2!3d50.3653134!4d-4.4168741"><i class="fa fa-compass fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Windsworth, St.Martin, Looe, Cornwall, PL13 1NZ</a>
-                <a class="list-group-item" href="https://www.facebook.com/Windsworth.org.uk/" target="_blank"><i class="fa fa-facebook-square fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Find us on Facebook</a>
-                <!-- <a class="list-group-item" href="#"  target="_blank"><i class="fa fa-twitter fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Tweet us on Twitter</a>
-                <a class="list-group-item" href="#" target="_blank"><i class="fa fa-tripadvisor fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Tcheck us out on Tripadvisor</a> -->
-              </div>
-              <div class="row">
-                <div id="sawday" class="col-sm-3">
-                  <script type="text/javascript" id="sawdays_badge">
-                    var sawdays_place = "britain/england/cornwall/the-old-coach-house-at-caradon-coastal-reserve",
-                      sawdays_place_name = "The Old Coach House at Caradon Coastal Reserve";
-                    n = document.createElement('script');
-                    n.src = 'https://www.sawdays.co.uk/accreditation/badge/(source)/' + window.location.host + '/(style)/colour/(place_id)/PL103609';
-                    document.getElementsByTagName("head")[0].appendChild(n);
-                  </script><noscript><a href="https://www.sawdays.co.uk/britain/england/cornwall/the-old-coach-house-at-caradon-coastal-reserve">Inspected and selected by Sawdays</a></noscript>
+    <footer id="contact" class="bg-white section">
+        <div class="container bg-brand-white">
+            <div class="row">
+                <div class="col-md-6 py-5">
+                    <h3>Message me directly</h3>
+                    <p class="text-muted">No risk, no obligation, free of charge</p>
+                    <form id="contactform" action="https://formspree.io/caroline@the-wordsmith.co.uk" method="POST">
+                        <div class="form-group">
+                            <input name="name" class="form-control" placeholder="Name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <input name="_replyto" type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your@email.com" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@email.com)" required>
+                            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                        </div>
+                        <input type="hidden" name="_subject" value="Website contact">
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" placeholder="Message" data-placement="top" data-trigger="manual" required></textarea>
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none">
+                        <div class="form-group">
+                            <button type="submit" value="Send" class="btn btn-primary pull-right">Send!</button>
+                        </div>
+                        <!-- <input type="hidden" name="_next" value="./thanks" /> -->
+                    </form>
                 </div>
-                <div id="photocredits" class="col-sm-9">
-                  <p>Special thanks to:</p>
-                  <a target="_blank" href="http://dgmweddings.com/" style="outline: none; border: 0px;"><img src="images/icons/diegologo.jpg" title="Diego Garcia Wedding Photography" alt="Diego Garcia Wedding Photography" class="img-responsive"></a>
+                <div class="col-md-6 py-5 splitter">
+                    <h3>Contacts</h3>
+                    <div class="list-group">
+                        <a class="list-group-item" target="_blank" href="tel:+441503262671"><i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>&nbsp; +44 (0)1503 262671</a>
+                        <a class="list-group-item" target="_blank" href="mailto:stay@windsworth.org.uk"><i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>&nbsp; caroline@the-wordsmith.co.uk</a>
+                        <a class="list-group-item" target="_blank" href="https://www.google.co.uk/maps/place/The+Old+Coach+House+at+The+Labyrinth/@50.3629311,-4.4749095,12z/data=!4m5!3m4!1s0x0:0xf5a9204e2f08709c!8m2!3d50.3653134!4d-4.4168741"><i class="fa fa-compass fa-lg fa-fw" aria-hidden="true"></i>&nbsp; Windsworth, St.Martin, Looe, Cornwall, PL13 1NZ</a>
+                    </div>
+                    <img class="img-fluid img-sfep d-block mx-auto py-5" src="./img/sfepbadge.png">
                 </div>
-              </div>
             </div>
-            <div class="col-md-6">
-              <form id="contactform" action="https://formspree.io/caroline@windsworth.org.uk" method="POST">
-                <div>
-                  <h3>Message us directly</h3>
-                </div>
-                <div class="form-group">
-                  <input name="name" class="form-control required" placeholder="Name" data-placement="top" data-trigger="manual" data-content="Must be at least 3 characters long, and must only contain letters." type="text">
-                </div>
-                <div class="form-group">
-                  <input name="_replyto" class="form-control email" placeholder="Your email address" data-placement="top" data-trigger="manual" data-content="Must be a valid e-mail address (user@email.com)" type="email">
-                </div>
-                <input type="hidden" name="_subject" value="Website contact" />
-                <div class="form-group">
-                  <textarea name="message" class="form-control" placeholder="Message" data-placement="top" data-trigger="manual"></textarea>
-                </div>
-                <input type="text" name="_gotcha" style="display:none" />
-                <div class="form-group">
-                  <button type="submit" value="Send" class="btn btn-success pull-right">Send!</button>
-                  <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not valid. </p>
-                </div>
-                      <input type="hidden" name="_next" value="../thanks" />
-              </form>
-              <br>
-              <br>
-              <h3 class="text-center sunnytext">Looking forward to seeing you in sunny (sometimes rainy) Cornwall!</h3>
-            </div>
-          </div>
-          <div class="text-center">
-            <a href="/mum" class="whitelink"><h2>♡</h2></a>
-            <hr>
-          </div>
         </div>
-      </footer>      
+    </footer>
 
     <!-- scripts -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.4/js/smooth-scroll.min.js" integrity="sha256-39wartXEbdg7ICZ2JTVgO8kjuQKGAmW+9z/tGsmT0TM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.4/js/smooth-scroll.min.js" integrity="sha256-39wartXEbdg7ICZ2JTVgO8kjuQKGAmW+9z/tGsmT0TM=" crossorigin="anonymous"></script>
 
     <!-- smoothscroll init -->
-        <script>
-            var scroll = new SmoothScroll('a[href*="#"]');
-        </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- scrolly shadow -->
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 60) {
+                    $('.navbar').addClass('shadow-down');
+                } else {
+                    $('.navbar').removeClass('shadow-down');
+                }
+            })
+        })
+    </script>
 
     <!-- browser sync - remove from production -->
-        <script id="__bs_script__">
-            //<![CDATA[
-            document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace(
-                "HOST", location.hostname));
-            //]]>
-        </script>
+    <script id="__bs_script__">
+        //<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace(
+            "HOST", location.hostname));
+        //]]>
+    </script>
 </body>
 
 </html>
