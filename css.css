@@ -1,8 +1,13 @@
 /* general */
 
+body {
+    /* padding-top: 150px; */
+}
+
 .container {
     max-width: 756px;
 }
+
 .shadow {
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
 }
@@ -21,7 +26,7 @@
 
 @media (min-width: 768px) {
     .section {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 }
 
@@ -74,6 +79,11 @@
 
 .flg-main {
     height: 1.5rem;
+}
+
+.navbar-nav {
+    /* font-size: 1.2rem; */
+    /* text-transform: uppercase; */
 }
 
 /* home */
@@ -199,4 +209,23 @@ fieldset[disabled] .btn-brand.active {
 .btn-brand .badge {
     color: #1E91D6;
     background-color: #FFFFFF;
+}
+
+/* scrollup */
+
+.scrollup {
+    width: 44px;
+    height: 48px;
+    position: fixed;
+    bottom: 5%;
+    right: 8%;
+    display: none;
+    background-color: blue;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    text-shadow: 0 0 9px #000;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    z-index: 10;
 }
