@@ -1,8 +1,8 @@
 /* general */
 
-body {
-    /* padding-top: 150px; */
-}
+/* body {
+    padding-top: 150px;
+} */
 
 .container {
     max-width: 756px;
@@ -81,10 +81,10 @@ body {
     height: 1.5rem;
 }
 
-.navbar-nav {
-    /* font-size: 1.2rem; */
-    /* text-transform: uppercase; */
-}
+/* .navbar-nav {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+} */
 
 /* home */
 
@@ -92,7 +92,7 @@ body {
     padding-top: 50px;
 }
 
-@media (min-width: 576px;) {
+@media (min-width: 576px) {
     .hero {
         padding-top: 80px; 
     }
