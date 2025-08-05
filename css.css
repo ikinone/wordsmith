@@ -71,6 +71,34 @@
     font-family: 'Eagle Lake', cursive;
 }
 
+.mega-font {
+    font-size: 4rem;
+}
+
+@media (min-width: 576px) { 
+    .mega-font {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    .mega-font {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    .mega-font {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .mega-font {
+        font-size: 5rem;
+    }
+}
+
 /* navbar */
 
 .flg {
