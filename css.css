@@ -228,9 +228,18 @@ fieldset[disabled] .btn-brand.active {
     border-left: 5px solid #1E91D6;
     padding-left: 20px;
     margin: 20px 0;
+}
+
+.blockquote p {
     font-style: italic;
     color: #354249;
+    margin-bottom: 0.3rem;
 }
+
+.blockquote footer {
+    font-size: 0.8em;
+}
+
 
 .image-wrapper {
     position: relative;
