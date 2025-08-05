@@ -220,7 +220,6 @@ fieldset[disabled] .btn-brand.active {
     bottom: 5%;
     right: 8%;
     display: none;
-    background-color: blue;
     font-size: 30px;
     line-height: 48px;
     text-align: center;
@@ -228,4 +227,14 @@ fieldset[disabled] .btn-brand.active {
     -webkit-transition: all .3s;
     transition: all .3s;
     z-index: 10;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.scrollup:hover {
+    transform: translateY(-3px);
+}
+
+.demo-icon {
+    text-decoration: none;
 }
