@@ -232,6 +232,22 @@ fieldset[disabled] .btn-brand.active {
     color: #354249;
 }
 
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.floating-image {
+    position: absolute;
+    top: -60px;
+    left: 480px;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
 /* scrollup */
 
 .scrollup {
