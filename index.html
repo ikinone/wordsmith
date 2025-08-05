@@ -586,7 +586,12 @@ Dr Keith Whittles, Whittles Publishing: We have been working with Caroline for s
    
     <!-- smoothscroll init -->
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        // Initialize Smooth Scroll for all anchor links
+        // Uncomment the line below to enable smooth scrolling for all links with href starting with #
+        // var scroll = new SmoothScroll('a[href*="#"]');
+        // Initialize Smooth Scroll for navbar links
+        // This will only apply to links that start with #
+        var scroll = new SmoothScroll('nav.navbar a[href^="#"]');
     </script>
 
     <!-- scrolly navbar shadow -->
