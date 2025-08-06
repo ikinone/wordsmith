@@ -236,47 +236,27 @@ fieldset[disabled] .btn-brand.active {
     font-size: 0.8em;
 }
 
+/* background images */
 
-.image-wrapper {
-    position: relative;
-    width: 100%;
-    max-width: none; /* allow overflow */
-    margin: 0 auto;
-    /* Remove max-width if you want images to overflow the viewport */
-    overflow: visible; /* ensure overflow is visible */
+.backgroundtern {
+    background-image: url("img/ternupscaled.png");
+    background-repeat: no-repeat;
+    background-position: 1230px 50px;
+    background-size: 400px;
 }
 
-.floating-image-tern {
-    position: absolute;
-    top: -60px;
-    left: 0px;
-    width: 400px; /* or your preferred fixed width */
-    height: auto;
+.backgroundssl {
+    background-image: url("img/seascapeleft.png");
+    background-repeat: no-repeat;
+    background-position: 70px 70px;
+    background-size: 500px;
 }
 
-.floating-image-ssl {
-    position: absolute;
-    top: -60px;
-    left: -0px;
-    width: 400px; /* or your preferred fixed width */
-    height: auto;
-}
-
-.floating-image-ssr {
-    position: absolute;
-    top: -220px;
-    left: 0px;
-    width: 400px; /* or your preferred fixed width */
-    height: auto;
-}
-
-.floating-centered-image {
-    position: absolute;
-     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px; /* or your preferred fixed width */
-    height: auto;
+.backgroundssr {
+    background-image: url("img/seascaperight.png");
+    background-repeat: no-repeat;
+    background-position: 1180px 270px;
+    background-size: 500px;
 }
 
 /* scrollup */
