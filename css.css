@@ -271,6 +271,14 @@ fieldset[disabled] .btn-brand.active {
     }
 }
 
+@media (min-width: 1300px) {
+    .backgroundsail {
+        background-image: url("img/sailboat.png");
+        background-repeat: no-repeat;
+        background-position: calc(50% + -560px) 680px;
+        background-size: 500px;
+    }
+}
 
 /* scrollup */
 
