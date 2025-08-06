@@ -1,9 +1,5 @@
 /* general */
 
-/* body {
-    padding-top: 150px;
-} */
-
 .container {
     max-width: 756px;
 }
@@ -244,34 +240,42 @@ fieldset[disabled] .btn-brand.active {
 .image-wrapper {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: none; /* allow overflow */
     margin: 0 auto;
+    /* Remove max-width if you want images to overflow the viewport */
+    overflow: visible; /* ensure overflow is visible */
 }
 
 .floating-image-tern {
     position: absolute;
     top: -60px;
-    left: 480px;
-    right: 0;
-    width: 100%;
+    left: 0px;
+    width: 400px; /* or your preferred fixed width */
     height: auto;
 }
 
 .floating-image-ssl {
     position: absolute;
     top: -60px;
-    left: -630px;
-    right: 0;
-    width: 100%;
+    left: -0px;
+    width: 400px; /* or your preferred fixed width */
     height: auto;
 }
 
 .floating-image-ssr {
     position: absolute;
     top: -220px;
-    left: 520px;
-    right: 0;
-    width: 100%;
+    left: 0px;
+    width: 400px; /* or your preferred fixed width */
+    height: auto;
+}
+
+.floating-centered-image {
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* or your preferred fixed width */
     height: auto;
 }
 
