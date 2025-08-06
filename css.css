@@ -273,9 +273,9 @@ fieldset[disabled] .btn-brand.active {
 
 @media (min-width: 1300px) {
     .backgroundsail {
-        background-image: url("img/sailboat.png");
+        background-image: url("img/sailboat.png"), url("img/camel.png");
         background-repeat: no-repeat;
-        background-position: calc(50% + -560px) 680px;
+        background-position: calc(50% + -570px) 630px, calc(50% + 600px) 1080px;
         background-size: 500px;
     }
 }
