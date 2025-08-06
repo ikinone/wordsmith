@@ -202,23 +202,23 @@
             <ul class="nav nav-tabs" id="titlesTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="maritime-tab" data-toggle="tab" href="#maritime" role="tab"
-                        aria-controls="maritime" aria-selected="true">Maritime</a>
+                        aria-controls="maritime" aria-selected="true" data-no-scroll>Maritime</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="history-tab" data-toggle="tab" href="#history" role="tab" aria-controls="history"
-                        aria-selected="false">History</a>
+                        aria-selected="false" data-no-scroll>History</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="wildlife-tab" data-toggle="tab" href="#wildlife" role="tab" aria-controls="wildlife"
-                        aria-selected="false">Wildlife</a>
+                        aria-selected="false" data-no-scroll>Wildlife</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="memoir-tab" data-toggle="tab" href="#memoir" role="tab" aria-controls="memoir"
-                        aria-selected="false">Memoir</a>
+                        aria-selected="false" data-no-scroll>Memoir</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="fiction-tab" data-toggle="tab" href="#fiction" role="tab" aria-controls="fiction"
-                        aria-selected="false">Fiction</a>
+                        aria-selected="false" data-no-scroll>Fiction</a>
                 </li>
             </ul>
             <div class="tab-content pt-3" id="titlesTabContent">
@@ -586,12 +586,9 @@ Dr Keith Whittles, Whittles Publishing: We have been working with Caroline for s
    
     <!-- smoothscroll init -->
     <script>
-        // Initialize Smooth Scroll for all anchor links
-        // Uncomment the line below to enable smooth scrolling for all links with href starting with #
         // var scroll = new SmoothScroll('a[href*="#"]');
-        // Initialize Smooth Scroll for navbar links
-        // This will only apply to links that start with #
-        var scroll = new SmoothScroll('nav.navbar a[href^="#"]');
+        // Initialize Smooth Scroll with option to ignore elements with data-no-scroll attribute
+        var scroll = new SmoothScroll('a[href*="#"]', { ignore: '[data-no-scroll]' });
     </script>
 
     <!-- scrolly navbar shadow -->
