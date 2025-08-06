@@ -260,7 +260,7 @@ fieldset[disabled] .btn-brand.active {
 .floating-image-ssl {
     position: absolute;
     top: -60px;
-    left: 480px;
+    left: -630px;
     right: 0;
     width: 100%;
     height: auto;
@@ -268,8 +268,8 @@ fieldset[disabled] .btn-brand.active {
 
 .floating-image-ssr {
     position: absolute;
-    top: -60px;
-    left: 480px;
+    top: -220px;
+    left: 520px;
     right: 0;
     width: 100%;
     height: auto;
