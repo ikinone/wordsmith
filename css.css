@@ -248,7 +248,25 @@ fieldset[disabled] .btn-brand.active {
     margin: 0 auto;
 }
 
-.floating-image {
+.floating-image-tern {
+    position: absolute;
+    top: -60px;
+    left: 480px;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.floating-image-ssl {
+    position: absolute;
+    top: -60px;
+    left: 480px;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.floating-image-ssr {
     position: absolute;
     top: -60px;
     left: 480px;
